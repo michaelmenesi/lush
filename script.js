@@ -64,4 +64,6 @@ ScrollReveal().reveal('.about-image', { origin:'left' });
 
 ScrollReveal().reveal('',{origin:'right'});
 
+ScrollReveal().reveal(".blog-container", {delay:200, easing:"ease-out", interval:200, scale:1.2})
+
 // scroll reveal ends 
