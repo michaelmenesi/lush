@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif; 
+}
+
+body{
+
+    background: #f3f6fd;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10px;
+}
+
+.logo-icon{
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.search-box{
+    width: 500px;
+    padding: 12px 15px;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+}
+
+
+.search-box i{
+    color: black;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #f92ba3;
+    cursor: pointer;
+}
+.top-header i{
+    color: #f92ba3;
+}
+
+.top-sidebar{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icons i{
+    padding: 10px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.icons i:hover{
+    background: #f92ba3;
+    color: #fff;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.user-profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* sidebar nav */
+.sidebar{
+    width: 90px;
+    background: #fff;
+    height: 90vh;
+    transition: all 0.2s linear;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+}
+.sidebar:hover{
+    width: 200px;
+
+}
+nav{
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow: hidden;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: black;
+    font-weight: 500;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover,
+.active {
+    background-color: #f92ba3;
+    color: white;
+    border-radius: 10px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+    border: 1px solid #f92ba3;
+    padding: 1px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+}
+.boom{
+    font-weight: bold;
+    font-size: 30px;
+    color: #f92ba3;
+    
+}
+/* blog section dashboard */
+section{
+    display: flex;
+    gap: 20px;
+}
+
+.blog-section{
+    flex: 1;
+
+    gap: 1rem;
+    padding: 2rem;
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+}
+.blog-heading{
+    color: #f92ba3;
+    font-size: 20px;
+    
+}
+
+.blog-heading h1{
+    border-bottom: 7px solid #f92ba3;
+    border-radius: 5px;
+}
+/* post slider */
+.swipe{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    /* max-width: 1120px; */
+    width: 100%;
+}
+.card{
+    background: #fff;
+    border-radius: 8px;
+    
+}
+.card-wrapper{
+    display: flex;
+    gap: 1cm;
+}
+.card .image-box{
+    height: 300px;
+}
+
+.card .image-box img{
+    height: 100%;
+    border-radius: 30px;
+}
+.card .profile-details{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+}
+
+.card .profile-details img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile-details .name{
+    font-size: 15px;
+    font-weight: 500;
+}
+.profile-details .job{
+    font-size: 12px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+/* post slider ends */
+/* about section  */
+.headingabout{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.headingabout h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+.headingabout h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f92ba3;
+}
+.headingabout p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 35px;
+}
+.aboutcontainer{
+   width: 90%;
+   margin: 0 auto;
+   padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+
+}
+.about-image:hover img{
+  transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: black;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+.about-content .read-more{
+    display: inline-block;
+    background-color: #f92ba3;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content .read-more:hover{
+    background-color: #ac126c;
+}
+/* contact form */
+.form-section{
+    display: flex;
+    justify-content: center;
+}
+.form-container{
+    display: block;
+    gap: 2cm;
+    padding: cm;
+    width: 70%;
+    height: 11cm;
+    margin-top: 1cm;
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+}
+.form-container h2{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 50%;
+    height: 1.5cm;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9cm;
+}
+label{
+    font-weight: 700;
+}
+
+button{
+    background: #f92ba3;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .4s ;
+}
+button:hover{
+    background: #b21470;
+}
+/* contact form ends */
+/* blog section dashboard ends */
