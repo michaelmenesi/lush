@@ -131,6 +131,9 @@ header{
     cursor: pointer;
     display: none;
 }
+.navbar.sticky{
+    background: #1b1b1b;
+}
 
 .action_btn{
     background-color:  #f92ba3;
