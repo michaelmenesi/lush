@@ -38,7 +38,7 @@ a:hover{
 
 /* nav bar */
 header{
-    background-image: url(image/banner.jpg);
+    background-image: url(../image/banner.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -47,7 +47,7 @@ header{
     background-attachment: fixed;
 }
 .headerservice{
-    background-image: url(image/service.jpg);
+    background-image: url(../image/service.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -56,7 +56,7 @@ header{
     background-attachment: fixed;
 }
 .headerabout{
-    background-image: url(image/about.jpg);
+    background-image: url(../image/about.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -65,7 +65,7 @@ header{
     background-attachment: fixed;
 }
 .headercontact{
-    background-image: url(image/contact.jpg);
+    background-image: url(../image/contact.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
