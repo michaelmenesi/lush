@@ -13,6 +13,10 @@ body{
 
     background: #f3f6fd;
 }
+
+.flow{
+    overflow: hidden;
+}
 .top-header{
     display: flex;
     align-items: center;
@@ -906,15 +910,9 @@ textarea.input{
 }
 
 
-@media screen and (max-height:851px) {
+@media screen and (max-height:762px) {
     .navigation{
-        margin-top: 36.4cm;
-    }
-}
-
-@media screen and (max-height:667px) {
-    .navigation{
-        margin-top: 27cm;
+        margin-top: 25cm;
     }
 }
 
