@@ -51,6 +51,53 @@
               </div>
                <div class="swipe">
                     <div class="container">
+                        <div class="body-wrapper">
+                            <div class="navigation">
+                                <ul>
+                                    <li class="list active">
+                                        <a href="dashboardhome.html">
+                                            <span class="icon">
+                                                <i class="fa-solid fa-house icon"></i>
+                                            </span>
+                                            <span class="text">Home</span>
+                                        </a>
+                                    </li>
+                                    <li class="list">
+                                        <a href="dashboardabout.html">
+                                            <span class="icon">
+                                                <i class="fa-solid fa-user icon"></i>
+                                            </span>
+                                            <span class="text">Profile</span>
+                                        </a>
+                                    </li>
+                                    <li class="list">
+                                        <a href="dashboardcontact.html">
+                                            <span class="icon">
+                                                <i class="fa-solid fa-message"></i>
+                                            </span>
+                                            <span class="text">Message</span>
+                                        </a>
+                                    </li>
+                                    <li class="list">
+                                        <a href="#">
+                                            <span class="icon">
+                                                <i class="fa-solid fa-camera"></i>
+                                            </span>
+                                            <span class="text">Photo </span>
+                                        </a>
+                                    </li>
+                                    <li class="list">
+                                        <a href="#">
+                                            <span class="icon">
+                                                <i class="fa-solid fa-gear"></i>
+                                            </span>
+                                            <span class="text">Setting</span>
+                                        </a>
+                                    </li>
+                                    <div class="indicator"></div>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="slide-container">
                             <div class="card-wrapper">
                                 <div class="card">
@@ -109,10 +156,17 @@
                     </div>
                </div>
             </div>
-
-            
-           
         </section>
-      
+        
+        <script>
+            const list = document.querySelectorAll('.list')
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('active'));
+                this.classList.add('active');
+            }
+            list.forEach((item) =>
+            item.addEventListener('click',activeLink));
+        </script>
     </body>
 </html>
