@@ -69,7 +69,6 @@ ScrollReveal().reveal(".blog-container", {delay:200, easing:"ease-out", interval
 // scroll reveal ends 
 
 // contact form js
-
 const inputs = document.querySelectorAll(".input");
              
 function focusFunc(){

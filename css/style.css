@@ -1192,7 +1192,7 @@ textarea.input{
     padding: 0.6rem 1.3rem;
     background-color: #fff;
     border: 2px solid #fafafa;
-    font-size: 0.95rem;
+    font-size: 0.4cm;
     color: #d115bb;
     line-height: 1;
     border-radius: 25px;
@@ -1206,13 +1206,15 @@ textarea.input{
     background-color: transparent;
     color: #fff;
 }
-
+.input-container label{
+    font-size: 0.4cm !important;
+}
 .input-container span{
     position: absolute;
     top: 0;
     left: 25px;
     transform: translateY(-50%);
-    font-size: 0.8rem;
+    font-size: 0.4cm !important;
     padding: 0 0.4rem;
     color: transparent;
     pointer-events: none;
@@ -1264,18 +1266,20 @@ textarea.input{
 
 .contact-info .title{
     color: #fb3bdf;
+    font-size: 0.7cm;
 }
 
 .text{
     color: black;
     margin: 1.5rem 0 2rem 0;
+    font-size: 0.4cm !important;
 }
 
 .information{
     display: flex;
     margin: 0.7rem 0;
     align-items: center;
-    font-size: 0.95rem;
+    font-size: 0.4cm !important;
 }
 
 .icon{
@@ -1286,11 +1290,10 @@ textarea.input{
 .social-media{
     padding: 2rem 0 0 0;
 }
-
-.social-media p {
-  color: black;
+.social-media p{
+    color: black;
+    font-size: 0.4cm !important;
 }
-
 .social-icons{
     display: flex;
     margin-top: 0.5rem;
@@ -1306,6 +1309,7 @@ textarea.input{
     line-height: 35px;
     margin-right: 0.5rem;
     transition: .3s;
+    font-size: 0.4cm;
 }
 
 .social-icons a:hover{
