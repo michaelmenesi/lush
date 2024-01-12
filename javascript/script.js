@@ -50,7 +50,7 @@ close.addEventListener('click',() =>{
 
 ScrollReveal({
     reset: true,
-    distance:'80px',
+    distance:'150px',
     duration:1500,
     delay:150, 
 });
